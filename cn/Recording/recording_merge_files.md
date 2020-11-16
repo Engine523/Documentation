@@ -115,7 +115,7 @@ video_convert.py -f <待转码文件所在路径> -m 1 -s -p 30 -r 640 360
 可运行以下命令将每个 UID 的音视频文件按录制 session 合并：
 
 ```
-video_convert.py -f <待转码文件所在路径> -m 1 -p 30 -r 640 360
+python video_convert.py -f <待转码文件所在路径> -m 1 -p 30 -r 640 360
 ```
 
 最终会生成四个转码文件：100_0_merge_av.mp4，100_1_merge_av.mp4， 123_0_merge_av.mp4 和 123_1_merge_av.mp4。
